@@ -1,0 +1,102 @@
+*{
+    margin:0;
+}
+#container-padre{
+    width: 20%;
+    height: 20%;
+    display:flex;
+    flex-wrap: wrap;
+    padding:10px;
+    margin-left: 30%;
+}
+
+#container-padre div{
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    font-size:3rem;
+    text-align:center;
+    cursor: pointer;
+}
+#btnjuegoNuevo{
+    width: 100%;
+    font-size: 2rem;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+#btnjuegoNuevo:hover{
+    background-color: green;
+}
+
+
+.ganador{
+    background-color: rgb(59, 205, 59);
+}
+
+
+.container-resultado{
+    font-size: 2rem;
+    display: flex;
+}
+
+#p{
+    margin-left:40%;
+}
+
+
+
+#p3{
+    font-size:2rem;
+}
+#p2{
+    margin-top: 0%;
+    font-size:8rem;
+}
+#container-ganador{
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+
+#container{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+}
+
+.disable{
+    pointer-events: none;
+}
+
+.container-hijastro{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+#turno{
+    font-size:2rem;
+    margin-left:30%;
+}
+#fin{
+    margin-left:30%;
+    font-size:1rem;
+}
+
+.color{
+    background-color:rgb(255, 145, 0);
+}
+
+.colorGanador{
+    background-color:rgb(22, 212, 88);
+}
+
+.container-titulo{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+h1{
+    margin-left: 25%;
+    font-size:4rem;
+}

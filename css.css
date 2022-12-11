@@ -181,5 +181,72 @@ input{
     #turno{
         font-size: 2rem;
         margin-left: 33%;
+   }
+}@media (max-width:414px){
+    
+    body{
+        background-color: burlywood;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    #container-padre div{
+        border: 1px solid black;
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+        text-align:center;
+        cursor: pointer;
+    }
+    #container-padre{
+        width: 50%;
+        height: 50%;
+        display:flex;
+        flex-wrap: wrap;
+        padding:10px;
+    }
+    #container-ganador{
+        width: 50%;
+        text-align: center;
+        padding: 10px;
+        margin-left: 26%;
+    }
+    #p3{
+        font-size:1rem;
+    }
+    #p2{
+        margin-top: 0%;
+        font-size:5rem;
+    }
+    .container-hijastro{
+        width: 100%;
+        margin-right: 10%;
+    }
+    #btnjuegoNuevo{
+        width: 100%;
+        font-size: 1rem;
+        border-radius: 10px;
+        margin:auto;
+    }
+    .container-titulo{
+        display: none;
+    }
+    .container_x_y_o{
+        width: 100%;
+        margin-left: 10%;
+    }
+    #fin{
+        margin-left:10%;
+        font-size:1rem;
+    }
+    #container{
+        margin-top: 0%;
+        display: block;
+        width: 100%;
+    }
+    #turno{
+        font-size: 2rem;
+        margin-left: 25%;
     }
 }
+

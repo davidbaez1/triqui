@@ -100,3 +100,16 @@ h1{
     margin-left: 25%;
     font-size:4rem;
 }
+.container_x_y_o{
+    margin-left: 40%;
+    width: 30%;
+}
+input{
+    border: none;
+    text-align: center;
+}
+
+.turno{
+   border: 1px solid rgb(98, 242, 98);
+   background-color: rgb(98, 242, 98);
+}

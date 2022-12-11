@@ -14,6 +14,7 @@ document.querySelectorAll(".container-padre div").forEach((e,i)=>{
         event.target.classList.add("disable")
         jugadas[i] = jugador
         jugador = jugador === "X"?"O":"X"
+        turno.textContent = "turno: "+jugador
         if(jugador == "O"){
             document.getElementById("contenedor-x").classList.remove("turno")
             document.getElementById("contenedor-o").classList.add("turno")
@@ -35,6 +36,9 @@ document.querySelectorAll(".container-padre div").forEach((e,i)=>{
                 contador_o++
                 document.getElementById("ganador-o").value = +contador_o
             }
+        }else{
+            fin.style.display = 'block'
+            fin.innerHTML = "no hay ganador"
         }
     })
 })

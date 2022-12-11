@@ -79,7 +79,7 @@ body{
 }
 #turno{
     font-size:2rem;
-    margin-left:30%;
+    margin-left:25%;
 }
 #fin{
     margin-left:30%;
@@ -180,6 +180,6 @@ input{
     }
     #turno{
         font-size: 2rem;
-        margin-left: 35%;
+        margin-left: 33%;
     }
 }

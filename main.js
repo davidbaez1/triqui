@@ -14,7 +14,7 @@ document.querySelectorAll(".container-padre div").forEach((e,i)=>{
         event.target.classList.add("disable")
         jugadas[i] = jugador
         jugador = jugador === "X"?"O":"X"
-        turno.textContent = "turno: "+jugador
+        turno.textContent = "turno de "+jugador
         if(jugador == "O"){
             document.getElementById("contenedor-x").classList.remove("turno")
             document.getElementById("contenedor-o").classList.add("turno")

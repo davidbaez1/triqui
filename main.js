@@ -27,8 +27,12 @@ document.querySelectorAll(".container-padre div").forEach((e,i)=>{
             fin.style.display = 'block'
             fin.innerHTML = "juego finalizado"
             document.getElementById("container-ganador").classList.remove("color")
-            document.getElementById("container-ganador").classList.add("ganador")    
+            document.getElementById("container-ganador").classList.add("ganador")
             document.getElementById("container-padre").classList.add("disable")
+            document.getElementById("container-ganador").classList.add("slider") 
+            document.getElementById("container-padre").classList.add("slider2")
+            document.getElementById("container-ganador").classList.replace("movimiento","slider") 
+            document.getElementById("container-padre").classList.replace("movimiento2","slider2")
             if(jugadas[i] == "X"){
                 contador_x++
                 document.getElementById("ganador-x").value = +contador_x
@@ -51,7 +55,9 @@ btnjuegoNuevo.addEventListener("click", ()=>{
         jugadas = []
         document.getElementById("container-padre").classList.remove("disable")
         document.getElementById("container-ganador").classList.add("color")
-        document.getElementById("container-ganador").classList.remove("ganador") 
+        document.getElementById("container-ganador").classList.replace("slider","movimiento") 
+        document.getElementById("container-padre").classList.replace("slider2","movimiento2")
+
         fin.style.display = 'none'
         p2.innerHTML = "?"
     }) 

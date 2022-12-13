@@ -278,18 +278,7 @@ input{
         0%{right: 0%;}
         100%{right: 22%;}
     }
-    @keyframes movimiento2{
-        0%{left: 0%;}
-        100%{left: 22%;}
-    }
-    @keyframes movimiento3{
-        0%{right: 22%;}
-        100%{right: 0%;}
-    }
-    @keyframes movimiento4{
-        0%{left: 22%;}
-        100%{left: 0%;}
-    }
+
 }
 
 @media (max-width:414px){
@@ -355,22 +344,7 @@ input{
         font-size: 2rem;
         margin-left: 33%;
     }
-    @keyframes movimiento{
-        0%{right: 0%;}
-        100%{right: 22%;}
-    }
-    @keyframes movimiento2{
-        0%{left: 0%;}
-        100%{left: 22%;}
-    }
-    @keyframes movimiento3{
-        0%{right: 22%;}
-        100%{right: 0%;}
-    }
-    @keyframes movimiento4{
-        0%{left: 22%;}
-        100%{left: 0%;}
-    }
+
 }
 
 

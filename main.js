@@ -33,6 +33,7 @@ document.querySelectorAll(".container-padre div").forEach((e,i)=>{
             document.getElementById("container-padre").classList.add("slider2")
             document.getElementById("container-ganador").classList.replace("movimiento","slider") 
             document.getElementById("container-padre").classList.replace("movimiento2","slider2")
+            document.getElementById("btnjuegoNuevo").style.display = "block"
             if(jugadas[i] == "X"){
                 contador_x++
                 document.getElementById("ganador-x").value = +contador_x
@@ -43,6 +44,7 @@ document.querySelectorAll(".container-padre div").forEach((e,i)=>{
         }else{
             fin.style.display = 'block'
             fin.innerHTML = "no hay ganador"
+            document.getElementById("btnjuegoNuevo").style.display = "block"
         }
     })
 })
@@ -57,7 +59,6 @@ btnjuegoNuevo.addEventListener("click", ()=>{
         document.getElementById("container-ganador").classList.add("color")
         document.getElementById("container-ganador").classList.replace("slider","movimiento") 
         document.getElementById("container-padre").classList.replace("slider2","movimiento2")
-
         fin.style.display = 'none'
         p2.innerHTML = "?"
     }) 
